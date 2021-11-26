@@ -34,13 +34,13 @@ firebase_admin.initialize_app(cred_object, {
 db = firestore.client()
 
 pyrebase_config = {
-    'apiKey': "AIzaSyAX7IDYHqbL2t0Vnwego4L4GPcgjoQ6YqE",
+    'apiKey': "",
     'authDomain': "covid-app-b87ac.firebaseapp.com",
     'databaseURL': "https://covid-app-b87ac-default-rtdb.firebaseio.com",
     'projectId': "covid-app-b87ac",
     'storageBucket': "covid-app-b87ac.appspot.com",
-    'messagingSenderId': "553457502229",
-    'appId': "1:553457502229:web:31bca93e34fa0c7deda61c"
+    'messagingSenderId': "",
+    'appId': ""
 }
 
 _pyrebase = pyrebase.initialize_app(pyrebase_config)
